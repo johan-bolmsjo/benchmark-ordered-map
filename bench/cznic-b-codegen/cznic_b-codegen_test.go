@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	btree "github.com/tv42/benchmark-ordered-map/bench/cznic-b-codegen/gen"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	btree "modernc.org/benchmark-ordered-map/bench/cznic-b-codegen/gen"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 func cznicCmp(a, b fixture.Key) int {

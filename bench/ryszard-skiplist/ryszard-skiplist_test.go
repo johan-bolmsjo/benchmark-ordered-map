@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/ryszard/goskiplist/skiplist"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 func lt(l, r interface{}) bool {

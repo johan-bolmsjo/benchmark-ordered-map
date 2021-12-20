@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/petar/GoLLRB/llrb"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 type llrbItem fixture.Item

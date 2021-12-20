@@ -4,7 +4,7 @@
 
 package b
 
-import bench "github.com/tv42/benchmark-ordered-map/fixture"
+import bench "modernc.org/benchmark-ordered-map/fixture"
 
 import (
 	"fmt"

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/btree"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 type googItem fixture.Item

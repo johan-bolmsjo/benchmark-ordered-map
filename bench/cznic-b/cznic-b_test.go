@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	btree "github.com/cznic/b"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 func cznicCmp(a, b interface{}) int {

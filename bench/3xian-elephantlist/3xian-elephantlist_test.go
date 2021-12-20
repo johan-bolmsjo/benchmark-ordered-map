@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/3xian/elephantlist"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 func threexianLT(a, b interface{}) bool {

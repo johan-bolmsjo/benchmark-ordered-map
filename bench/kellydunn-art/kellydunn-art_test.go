@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/kellydunn/go-art"
-	"github.com/tv42/benchmark-ordered-map/fixture"
+	"modernc.org/benchmark-ordered-map/fixture"
 )
 
 func makeKey(k fixture.Key, buf []byte) {
