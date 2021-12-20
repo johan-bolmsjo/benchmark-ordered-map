@@ -1,4 +1,4 @@
-.PHONY:	all clean nuke README.md
+.PHONY:	all clean nuke README.md edit editor
 
 all:
 	GOMAXPROCS=1 redo
@@ -12,3 +12,10 @@ clean:
 README.md:
 	rm -f README.md
 	redo README.md
+
+edit:
+	@touch log
+	@if [ -f "Session.vim" ]; then gvim -S & else gvim -p Makefile *.go & fi
+
+editor:
+	gofmt -l -s -w .

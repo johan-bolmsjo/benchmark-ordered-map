@@ -1,5 +1,3 @@
-// +build !b.instrumentation
-
 package b
 
 type dTree struct {
