@@ -36,13 +36,13 @@ Inserts the test data, pre-sorted, in key order.
 
 ## Participating libraries
 
-    [github.com/3xian/elephantlist](https://github.com/3xian/elephantlist)
-    [github.com/biogo/store/llrb](hppts://github.com/biogo/store/llrb)
-    [github.com/glenn-brown/skiplist](https://github.com/glenn-brown/skiplist)
-    [github.com/google/btree](https://github.com/google/btree)
-    [github.com/kellydunn/go-art](https://github.com/kellydunn/go-art)
-    [github.com/petar/GoLLRB/llrb](https://github.com/petar/GoLLRB/llrb)
-    [github.com/ryszard/goskiplist/skiplist](https://github.com/ryszard/goskiplist/skiplist)
-    [modernc.org/b](https://modernc.org/b)
+- [github.com/3xian/elephantlist](https://github.com/3xian/elephantlist)
+- [github.com/biogo/store/llrb](hppts://github.com/biogo/store/llrb)
+- [github.com/glenn-brown/skiplist](https://github.com/glenn-brown/skiplist)
+- [github.com/google/btree](https://github.com/google/btree)
+- [github.com/kellydunn/go-art](https://github.com/kellydunn/go-art)
+- [github.com/petar/GoLLRB/llrb](https://github.com/petar/GoLLRB/llrb)
+- [github.com/ryszard/goskiplist/skiplist](https://github.com/ryszard/goskiplist/skiplist)
+- [modernc.org/b](https://modernc.org/b)
 
 Do you want to see your library results here? Send me a merge request.
