@@ -1,14 +1,14 @@
-package cznicBCodegen_test
+package moderncBCodegen_test
 
 import (
 	"io"
 	"testing"
 
-	btree "modernc.org/benchmark-ordered-map/bench/cznic-b-codegen/gen"
+	btree "modernc.org/benchmark-ordered-map/bench/modernc-b-codegen/gen"
 	"modernc.org/benchmark-ordered-map/fixture"
 )
 
-func cznicCmp(a, b fixture.Key) int {
+func moderncCmp(a, b fixture.Key) int {
 	switch {
 	case a < b:
 		return -1
@@ -21,7 +21,7 @@ func cznicCmp(a, b fixture.Key) int {
 
 func BenchmarkInsert(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		tree := btree.TreeNew(cznicCmp)
+		tree := btree.TreeNew(moderncCmp)
 		for i := 0; i < len(fixture.TestData); i++ {
 			tree.Set(fixture.TestData[i].Key, fixture.TestData[i].Value)
 		}
@@ -30,7 +30,7 @@ func BenchmarkInsert(b *testing.B) {
 
 func BenchmarkSortedInsert(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		tree := btree.TreeNew(cznicCmp)
+		tree := btree.TreeNew(moderncCmp)
 		for i := 0; i < len(fixture.SortedTestData); i++ {
 			tree.Set(fixture.SortedTestData[i].Key, fixture.SortedTestData[i].Value)
 		}
@@ -38,7 +38,7 @@ func BenchmarkSortedInsert(b *testing.B) {
 }
 
 func BenchmarkIterate(b *testing.B) {
-	tree := btree.TreeNew(cznicCmp)
+	tree := btree.TreeNew(moderncCmp)
 	for i := 0; i < len(fixture.TestData); i++ {
 		tree.Set(fixture.TestData[i].Key, fixture.TestData[i].Value)
 	}

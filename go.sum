@@ -2,12 +2,6 @@ github.com/3xian/elephantlist v0.0.0-20140607022226-3d608579b1a8 h1:3AwRIwLi6GM7
 github.com/3xian/elephantlist v0.0.0-20140607022226-3d608579b1a8/go.mod h1:VNzxj9zwihX1Yo2/3oat3hwFyiDeM6TDx0wpG86Z4lE=
 github.com/biogo/store v0.0.0-20201120204734-aad293a2328f h1:+6okTAeUsUrdQr/qN7fIODzowrjjCrnJDg/gkYqcSXY=
 github.com/biogo/store v0.0.0-20201120204734-aad293a2328f/go.mod h1:z52shMwD6SGwRg2iYFjjDwX5Ene4ENTw6HfXraUy/08=
-github.com/cznic/b v0.0.0-20181122101859-a26611c4d92d h1:SwD98825d6bdB+pEuTxWOXiSjBrHdOl/UVp75eI7JT8=
-github.com/cznic/b v0.0.0-20181122101859-a26611c4d92d/go.mod h1:URriBxXwVq5ijiJ12C7iIZqlA69nTlI+LgI6/pwftG8=
-github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 h1:iwZdTE0PVqJCos1vaoKsclOGD3ADKpshg3SRtYBbwso=
-github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548/go.mod h1:e6NPNENfs9mPDVNRekM7lKScauxd5kXTr1Mfyig6TDM=
-github.com/cznic/strutil v0.0.0-20181122101858-275e90344537 h1:MZRmHqDBd0vxNwenEbKSQqRVT24d3C05ft8kduSwlqM=
-github.com/cznic/strutil v0.0.0-20181122101858-275e90344537/go.mod h1:AHHPPPXTw0h6pVabbcbyGRK1DckRn7r/STdZEeIDzZc=
 github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941 h1:EXe+/4W8PVF2Mn3yJpJHR2TOvTktEy0yCqSBBL8k/hU=
 github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941/go.mod h1:Nak/y5LCLuwml0uNGM2PMBI1baAbUt9qBElV/+4Vib0=
 github.com/glenn-brown/skiplist v0.0.0-20121122060428-b6428f513193 h1:McqmIWI1im8hpASUABYbeQLBTZh98a8yxcA0LeNVnsg=
@@ -29,3 +23,11 @@ github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46 h1:GHRpF1pTW19a
 github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46/go.mod h1:uAQ5PCi+MFsC7HjREoAz1BU+Mq60+05gifQSsHSDG/8=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 h1:YR8cESwS4TdDjEe65xsg0ogRM/Nc3DYOhEAlW+xobZo=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+modernc.org/b v1.0.2 h1:iPC2u39ebzq12GOC2yXT4mve0HrWcH85cz+midWjzeo=
+modernc.org/b v1.0.2/go.mod h1:fVGfCIzkZw5RsuF2A2WHbJmY7FiMIq30nP4s52uWsoY=
+modernc.org/fileutil v1.0.0/go.mod h1:JHsWpkrk/CnVV1H/eGlFf85BEpfkrp56ro8nojIq9Q8=
+modernc.org/mathutil v1.2.2/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6E=
+modernc.org/mathutil v1.4.1 h1:ij3fYGe8zBF4Vu+g0oT7mB06r8sqGWKuJu1yXeR4by8=
+modernc.org/mathutil v1.4.1/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6E=
+modernc.org/strutil v1.1.1 h1:xv+J1BXY3Opl2ALrBwyfEikFAj8pmqcpnfmuwUwcozs=
+modernc.org/strutil v1.1.1/go.mod h1:DE+MQQ/hjKBZS2zNInV5hhcipt5rLPWkmpbGeW5mmdw=
