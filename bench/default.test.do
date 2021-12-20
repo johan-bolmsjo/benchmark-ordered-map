@@ -4,7 +4,7 @@ exec 1>&2
 # every time
 redo-always
 
-go test -i -c -o "$3" "./${1%.test}"
+go test -c -o "$3" "./${1%.test}"
 
 # don't trigger re-running the benchmark if the binary doesn't change
 redo-stamp <"$3"
