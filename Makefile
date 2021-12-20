@@ -1,7 +1,7 @@
 .PHONY:	all clean nuke README.md
 
 all:
-	redo
+	GOMAXPROCS=1 redo
 	make README.md
 
 clean:
