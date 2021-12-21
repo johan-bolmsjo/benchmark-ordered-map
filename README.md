@@ -54,50 +54,53 @@ Do you want to see your library results here? Send me a merge request.
 ```
 benchmark                       iter       time/iter     bytes alloc             allocs
 ---------                       ----       ---------     -----------             ------
-Benchmark_modernc-b-codegen       63     16.45 ms/op    3292154 B/op     1840 allocs/op
-Benchmark_ajwerner-btree          72     16.78 ms/op    3430524 B/op     1112 allocs/op
-Benchmark_google-btree            38     31.25 ms/op    6012120 B/op   106918 allocs/op
-Benchmark_modernc-b               33     34.93 ms/op    6632812 B/op   201842 allocs/op
-Benchmark_biogo-llrb              25     40.21 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_petar-GoLLRB            25     42.05 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_3xian-elephantlist      25     47.31 ms/op    9629090 B/op   227176 allocs/op
-Benchmark_kellydunn-art           21     48.30 ms/op   28746952 B/op   800744 allocs/op
-Benchmark_glennbrown-skiplist     19     59.29 ms/op   12016788 B/op   400017 allocs/op
-Benchmark_ryszard-skiplist         7    144.09 ms/op   66400245 B/op   500005 allocs/op
-Benchmark_sortedslice              1   2343.96 ms/op   14077952 B/op       30 allocs/op
+Benchmark_modernc-b-generic       69     15.72 ms/op    3292461 B/op     1843 allocs/op
+Benchmark_modernc-b-codegen       74     15.85 ms/op    3292152 B/op     1840 allocs/op
+Benchmark_ajwerner-btree          73     16.28 ms/op    3430515 B/op     1112 allocs/op
+Benchmark_google-btree            38     30.04 ms/op    6012120 B/op   106918 allocs/op
+Benchmark_modernc-b               34     33.54 ms/op    6632821 B/op   201842 allocs/op
+Benchmark_biogo-llrb              25     41.12 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_petar-GoLLRB            24     42.73 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_kellydunn-art           25     47.80 ms/op   28746952 B/op   800744 allocs/op
+Benchmark_3xian-elephantlist      22     48.21 ms/op    9628990 B/op   227176 allocs/op
+Benchmark_glennbrown-skiplist     19     58.64 ms/op   12016787 B/op   400017 allocs/op
+Benchmark_ryszard-skiplist         7    148.91 ms/op   66400248 B/op   500005 allocs/op
+Benchmark_sortedslice              1   2360.89 ms/op   14077952 B/op       30 allocs/op
 ```
 
 ## Iterate
 ```
 benchmark                        iter         time/iter   bytes alloc        allocs
 ---------                        ----         ---------   -----------        ------
-Benchmark_sortedslice           12280       97.37 μs/op        0 B/op   0 allocs/op
-Benchmark_ajwerner-btree         3924      310.46 μs/op        0 B/op   0 allocs/op
-Benchmark_modernc-b-codegen      3045      397.19 μs/op        0 B/op   0 allocs/op
-Benchmark_modernc-b              2030      597.72 μs/op        0 B/op   0 allocs/op
-Benchmark_google-btree           1911      623.44 μs/op        0 B/op   0 allocs/op
-Benchmark_biogo-llrb             1082     1112.01 μs/op        0 B/op   0 allocs/op
-Benchmark_petar-GoLLRB            734     1665.02 μs/op        0 B/op   0 allocs/op
-Benchmark_glennbrown-skiplist     392     3041.67 μs/op        0 B/op   0 allocs/op
-Benchmark_kellydunn-art           188     6505.37 μs/op        0 B/op   0 allocs/op
-Benchmark_ryszard-skiplist         86    13840.70 μs/op        0 B/op   0 allocs/op
+Benchmark_sortedslice           12186       98.64 μs/op        0 B/op   0 allocs/op
+Benchmark_ajwerner-btree         3830      316.18 μs/op        0 B/op   0 allocs/op
+Benchmark_modernc-b-generic      2989      382.33 μs/op        0 B/op   0 allocs/op
+Benchmark_modernc-b-codegen      3098      390.90 μs/op        0 B/op   0 allocs/op
+Benchmark_google-btree           2216      548.08 μs/op        0 B/op   0 allocs/op
+Benchmark_modernc-b              1861      665.92 μs/op        0 B/op   0 allocs/op
+Benchmark_biogo-llrb             1069     1144.55 μs/op        0 B/op   0 allocs/op
+Benchmark_petar-GoLLRB            745     1627.73 μs/op        0 B/op   0 allocs/op
+Benchmark_glennbrown-skiplist     424     2843.59 μs/op        0 B/op   0 allocs/op
+Benchmark_kellydunn-art           188     6497.36 μs/op        0 B/op   0 allocs/op
+Benchmark_ryszard-skiplist         85    14012.93 μs/op        0 B/op   0 allocs/op
 ```
 
 ## SortedInsert
 ```
 benchmark                                iter     time/iter     bytes alloc             allocs
 ---------                                ----     ---------     -----------             ------
-Benchmark_modernc-b-codegen               213    5.57 ms/op    2887121 B/op     1613 allocs/op
-Benchmark_sortedslice                     199    6.02 ms/op   14077952 B/op       30 allocs/op
-Benchmark_ajwerner-btree                  196    6.12 ms/op    4900999 B/op     1588 allocs/op
-Benchmark_modernc-b                        75   16.03 ms/op    6112131 B/op   201616 allocs/op
-Benchmark_google-btree_ReplaceOrInsert     69   18.12 ms/op    7637176 B/op   109904 allocs/op
-Benchmark_biogo-llrb_ReplaceOrInsert       50   24.37 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_biogo-llrb_InsertNoReplace       43   24.50 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_petar-GoLLRB_InsertNoReplace     45   25.75 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_petar-GoLLRB_ReplaceOrInsert     39   29.79 ms/op    7200000 B/op   200000 allocs/op
-Benchmark_3xian-elephantlist               34   32.11 ms/op   12561983 B/op   237508 allocs/op
-Benchmark_glennbrown-skiplist              32   33.60 ms/op   12016787 B/op   400017 allocs/op
-Benchmark_kellydunn-art                    30   39.04 ms/op   28737712 B/op   799621 allocs/op
-Benchmark_ryszard-skiplist                 19   66.36 ms/op   66400274 B/op   500005 allocs/op
+Benchmark_modernc-b-codegen               217    5.50 ms/op    2887117 B/op     1613 allocs/op
+Benchmark_modernc-b-generic               208    5.66 ms/op    2887448 B/op     1617 allocs/op
+Benchmark_ajwerner-btree                  200    6.07 ms/op    4900997 B/op     1588 allocs/op
+Benchmark_sortedslice                     196    6.13 ms/op   14077952 B/op       30 allocs/op
+Benchmark_modernc-b                        72   16.64 ms/op    6112096 B/op   201615 allocs/op
+Benchmark_google-btree_ReplaceOrInsert     68   18.15 ms/op    7637176 B/op   109904 allocs/op
+Benchmark_biogo-llrb_ReplaceOrInsert       43   23.76 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_biogo-llrb_InsertNoReplace       51   24.30 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_petar-GoLLRB_InsertNoReplace     44   26.16 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_petar-GoLLRB_ReplaceOrInsert     34   30.36 ms/op    7200000 B/op   200000 allocs/op
+Benchmark_glennbrown-skiplist              33   32.14 ms/op   12016786 B/op   400017 allocs/op
+Benchmark_3xian-elephantlist               40   32.25 ms/op   12562054 B/op   237508 allocs/op
+Benchmark_kellydunn-art                    28   39.90 ms/op   28737712 B/op   799621 allocs/op
+Benchmark_ryszard-skiplist                 20   62.04 ms/op   66400296 B/op   500005 allocs/op
 ```

@@ -12,6 +12,7 @@ require (
 	github.com/petar/GoLLRB v0.0.0-20210522233825-ae3b015fd3e9
 	github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46
 	modernc.org/b v1.0.2
+	modernc.org/b/v2 v2.0.0
 )
 
 require github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941 // indirect
