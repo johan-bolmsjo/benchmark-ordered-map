@@ -41,9 +41,10 @@ func BenchmarkSortedInsert(b *testing.B) {
 }
 
 var (
-	ajwenerSinkKey fixture.Key
-	ajwenerSinkValue fixture.Value
+	ksink fixture.Key
+	vsink fixture.Value
 )
+
 func BenchmarkIterate(b *testing.B) {
 	tree := new()
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -54,8 +55,8 @@ func BenchmarkIterate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		iter := tree.Iterator()
 		for iter.First(); iter.Valid(); iter.Next() {
-			ajwenerSinkKey = iter.Cur()
-			ajwenerSinkValue = iter.Value()
+			ksink = iter.Cur()
+			vsink = iter.Value()
 		}
 	}
 }

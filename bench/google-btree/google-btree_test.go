@@ -33,6 +33,11 @@ func BenchmarkSortedInsert_ReplaceOrInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	tree := btree.New(btreeDegree)
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -43,8 +48,8 @@ func BenchmarkIterate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 
 		tree.Ascend(func(i btree.Item) bool {
-			_ = i.(googItem).Key
-			_ = i.(googItem).Value
+			ksink = i.(googItem).Key
+			vsink = i.(googItem).Value
 			return true
 		})
 	}

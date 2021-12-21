@@ -29,7 +29,7 @@ Inserts the test data, pre-sorted, in key order.
 
   - Remember to loop `b.N` times.
 
-  - When iterating, remember to assign both `Key` and `Value` to `_`,
+  - When iterating, remember to assign both `Key` and `Value` to a static sink,
 	after any type asserts if those are needed.
 
   - TODO: After the loop, `b.StopTimer()` and submit results to `Verify`.

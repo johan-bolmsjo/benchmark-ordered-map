@@ -35,6 +35,11 @@ func BenchmarkSortedInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	list := skiplist.New()
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -45,8 +50,8 @@ func BenchmarkIterate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		e := list.Front()
 		for e != nil {
-			_ = fixture.Key(e.Key().(glennBrownKey))
-			_ = e.Value.(fixture.Value)
+			ksink = fixture.Key(e.Key().(glennBrownKey))
+			vsink = e.Value.(fixture.Value)
 			e = e.Next()
 		}
 	}

@@ -35,6 +35,11 @@ func BenchmarkSortedInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	key := make([]byte, 8)
 	tree := art.NewArtTree()
@@ -51,8 +56,8 @@ func BenchmarkIterate(b *testing.B) {
 				return
 			}
 			item := n.Value().(fixture.Item)
-			_ = item.Key
-			_ = item.Value
+			ksink = item.Key
+			vsink = item.Value
 		})
 	}
 }

@@ -29,6 +29,11 @@ func BenchmarkSortedInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	list := skiplist.NewCustomMap(lt)
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -38,8 +43,8 @@ func BenchmarkIterate(b *testing.B) {
 
 	for i := 0; i < b.N; i++ {
 		for i := list.Iterator(); i.Next(); {
-			_ = i.Key().(fixture.Key)
-			_ = i.Value().(fixture.Value)
+			ksink = i.Key().(fixture.Key)
+			vsink = i.Value().(fixture.Value)
 		}
 	}
 }

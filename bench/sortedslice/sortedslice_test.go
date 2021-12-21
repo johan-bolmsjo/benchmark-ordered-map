@@ -85,6 +85,11 @@ func BenchmarkSortedInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	list := &SortedSlice{}
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -94,8 +99,8 @@ func BenchmarkIterate(b *testing.B) {
 
 	for i := 0; i < b.N; i++ {
 		for i := 0; i < len(*list); i++ {
-			_ = (*list)[i].Key
-			_ = (*list)[i].Value
+			ksink = (*list)[i].Key
+			vsink = (*list)[i].Value
 		}
 	}
 

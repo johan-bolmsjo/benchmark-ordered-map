@@ -40,6 +40,11 @@ func BenchmarkSortedInsert_InsertNoReplace(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	tree := llrb.New()
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -50,8 +55,8 @@ func BenchmarkIterate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		min := tree.Min()
 		tree.AscendGreaterOrEqual(min, func(i llrb.Item) bool {
-			_ = i.(llrbItem).Key
-			_ = i.(llrbItem).Value
+			ksink = i.(llrbItem).Key
+			vsink = i.(llrbItem).Value
 			return true
 		})
 	}

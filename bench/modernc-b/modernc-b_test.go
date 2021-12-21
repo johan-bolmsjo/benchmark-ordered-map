@@ -39,6 +39,11 @@ func BenchmarkSortedInsert(b *testing.B) {
 	}
 }
 
+var (
+	ksink fixture.Key
+	vsink fixture.Value
+)
+
 func BenchmarkIterate(b *testing.B) {
 	tree := btree.TreeNew(moderncCmp)
 	for i := 0; i < len(fixture.TestData); i++ {
@@ -61,8 +66,8 @@ func BenchmarkIterate(b *testing.B) {
 				b.Fatalf("iter.Next: %v", err)
 			}
 
-			_ = k.(fixture.Key)
-			_ = v.(fixture.Value)
+			ksink = k.(fixture.Key)
+			vsink = v.(fixture.Value)
 		}
 		iter.Close()
 	}
