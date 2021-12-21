@@ -15,7 +15,7 @@ README.md:
 
 edit:
 	@touch log
-	@if [ -f "Session.vim" ]; then gvim -S & else gvim -p Makefile *.go & fi
+	@if [ -f "Session.vim" ]; then gvim -S & else gvim -p Makefile README.edit.md & fi
 
 editor:
 	gofmt -l -s -w .

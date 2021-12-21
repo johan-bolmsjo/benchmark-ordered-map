@@ -37,6 +37,7 @@ Inserts the test data, pre-sorted, in key order.
 ## Participating libraries
 
 - [github.com/3xian/elephantlist](https://github.com/3xian/elephantlist)
+- [github.com/ajwerner/btree](https://github.com/ajwerner/btree)
 - [github.com/biogo/store/llrb](https://github.com/biogo/store)
 - [github.com/glenn-brown/skiplist](https://github.com/glenn-brown/skiplist)
 - [github.com/google/btree](https://github.com/google/btree)
