@@ -37,6 +37,7 @@ Inserts the test data, pre-sorted, in key order.
 ## Participating libraries
 
 - [github.com/3xian/elephantlist](https://github.com/3xian/elephantlist)
+- [github.com/Michal-Leszczynski/btree](https://github.com/Michal-Leszczynski/btree)
 - [github.com/ajwerner/btree](https://github.com/ajwerner/btree)
 - [github.com/biogo/store/llrb](https://github.com/biogo/store)
 - [github.com/glenn-brown/skiplist](https://github.com/glenn-brown/skiplist)
@@ -44,6 +45,7 @@ Inserts the test data, pre-sorted, in key order.
 - [github.com/kellydunn/go-art](https://github.com/kellydunn/go-art)
 - [github.com/petar/GoLLRB/llrb](https://github.com/petar/GoLLRB)
 - [github.com/ryszard/goskiplist/skiplist](https://github.com/ryszard/goskiplist)
+- [modernc.org/b/v2](https://gitlab.com/cznic/b/v2)
 - [modernc.org/b](https://gitlab.com/cznic/b)
 
 Do you want to see your library results here? Send me a merge request.
