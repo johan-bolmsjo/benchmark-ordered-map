@@ -12,7 +12,7 @@ require (
 	github.com/kellydunn/go-art v0.0.1
 	github.com/petar/GoLLRB v0.0.0-20210522233825-ae3b015fd3e9
 	github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46
-	modernc.org/b v1.0.2
+	modernc.org/b v1.0.3
 	modernc.org/b/v2 v2.1.0
 )
 
