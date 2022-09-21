@@ -8,8 +8,8 @@ github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941 h1:EXe+/4W8PVF
 github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941/go.mod h1:Nak/y5LCLuwml0uNGM2PMBI1baAbUt9qBElV/+4Vib0=
 github.com/glenn-brown/skiplist v0.0.0-20121122060428-b6428f513193 h1:McqmIWI1im8hpASUABYbeQLBTZh98a8yxcA0LeNVnsg=
 github.com/glenn-brown/skiplist v0.0.0-20121122060428-b6428f513193/go.mod h1:bMJWggpbrjFmPbLqutpBMgoqcPcwCAyqgtOrdj6GsUM=
-github.com/google/btree v1.0.1 h1:gK4Kx5IaGY9CD5sPJ36FHiBJ6ZXl0kilRiiCj+jdYp4=
-github.com/google/btree v1.0.1/go.mod h1:xXMiIv4Fb/0kKde4SpL7qlzvu5cMJDRkFDxJfI9uaxA=
+github.com/google/btree v1.1.2 h1:xf4v41cLI2Z6FxbKm+8Bu+m8ifhj15JuZ9sa0jZCMUU=
+github.com/google/btree v1.1.2/go.mod h1:qOPhT0dTNdNzV6Z/lhRX0YXUafgPLFUh+gZMl761Gm4=
 github.com/kellydunn/go-art v0.0.1 h1:l0Cvt7GT7alCtpD6wCSljKRkX0vFivHY4vqB0TroH3s=
 github.com/kellydunn/go-art v0.0.1/go.mod h1:/4WVtMpiSj+kTeft51oB0GnT4zP0h1CpE7t4ACUya7A=
 github.com/kr/pretty v0.2.0 h1:s5hAObm+yFO5uHYt5dYjxi2rXrsnmRpJx4OYvIWUaQs=
