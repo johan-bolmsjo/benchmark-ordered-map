@@ -24,8 +24,8 @@ github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46 h1:GHRpF1pTW19a
 github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46/go.mod h1:uAQ5PCi+MFsC7HjREoAz1BU+Mq60+05gifQSsHSDG/8=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 h1:YR8cESwS4TdDjEe65xsg0ogRM/Nc3DYOhEAlW+xobZo=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-modernc.org/b v1.0.3 h1:i4Iye3D8KsPozbQndZzccQ/PlIVpMe3U/ET4dhAkGjs=
-modernc.org/b v1.0.3/go.mod h1:bauv72WoSgpBPpK6rQRqE+xVQHzszHS92P3mKx1l3g4=
+modernc.org/b v1.0.4 h1:KaWiPq93MKME8+cZu5VLKLrAXzBHYr+TMiC9mxn3M0M=
+modernc.org/b v1.0.4/go.mod h1:Oqc2xtmGT0tvBUsPZIanirLhxBCQZhM7Lu3TlzBj9w8=
 modernc.org/b/v2 v2.1.0 h1:kMD/G43EYnsFJI/0qK1F1X659XlSs41bp01MUDidHC0=
 modernc.org/b/v2 v2.1.0/go.mod h1:fQhHWDXrchyUSLjQYCslV/4uw04PW1LeiZ25D4SNmeo=
 modernc.org/mathutil v1.5.0 h1:rV0Ko/6SfM+8G+yKiyI830l3Wuz1zRutdslNoQ0kfiQ=
