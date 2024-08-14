@@ -1,6 +1,6 @@
 module modernc.org/benchmark-ordered-map
 
-go 1.18
+go 1.23
 
 require (
 	github.com/3xian/elephantlist v0.0.0-20140607022226-3d608579b1a8
@@ -9,6 +9,7 @@ require (
 	github.com/biogo/store v0.0.0-20201120204734-aad293a2328f
 	github.com/glenn-brown/skiplist v0.0.0-20121122060428-b6428f513193
 	github.com/google/btree v1.1.2
+	github.com/johan-bolmsjo/gods/v3 v3.0.1
 	github.com/kellydunn/go-art v0.0.1
 	github.com/petar/GoLLRB v0.0.0-20210522233825-ae3b015fd3e9
 	github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46
@@ -16,6 +17,9 @@ require (
 	modernc.org/b/v2 v2.1.0
 )
 
-require github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941 // indirect
+require (
+	github.com/glenn-brown/ordinal v0.0.0-20121112042833-18b2aec8a941 // indirect
+	golang.org/x/exp v0.0.0-20220314202251-1f025e96a593 // indirect
+)
 
 replace github.com/Michal-Leszczynski/btree => ./michal_leszczynski/btree/
